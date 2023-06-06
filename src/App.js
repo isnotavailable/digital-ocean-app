@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import NewCP from './NewCP';
 
 function App() {
   return (
     <div className="App">
-      <h1>My App is cool</h1>
+      <NewCP></NewCP>
     </div>
   );
 }
